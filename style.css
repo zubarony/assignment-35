@@ -391,7 +391,8 @@ h1,h2,h3,h4,h5,h6 ,a{
     color: #0d00c7;
     position: absolute;
     bottom: -146px;
-    right: 316px;
+    right: 360px;
+   
 }
 
 
@@ -478,8 +479,7 @@ h1,h2,h3,h4,h5,h6 ,a{
     content: "";
     position: absolute;
     bottom: -20px;
-    left: 335px;
-    
+    left: 393px;
     height: 3px;
     width: 60px;
     background: rgb(1, 60, 255);
@@ -529,7 +529,7 @@ h1,h2,h3,h4,h5,h6 ,a{
     content: "";
     position: absolute;
     bottom: -20px;
-    left: 200px;
+    left: 261px;
     height: 3px;
     width: 60px;
     background: rgb(1, 60, 255);
@@ -609,4 +609,113 @@ h1,h2,h3,h4,h5,h6 ,a{
 }
 .client-image:hover{
     background: #f6f9fc;
+}
+
+/* blg */
+
+.Blog-title h5 {
+    color: #0060af;
+    font-size: 17px;
+    font-weight: 600;
+}
+.Blog-title h1 {
+    font-size: 37px;
+    font-weight: 600;
+    position: relative;
+}
+.Blog-title h1::after {
+    content: "";
+    height: 2px;
+    width: 60px;
+    background: #0060af;
+    position: absolute;
+    bottom: -12px;
+    left: 280px;
+}
+.Blog-title p {
+    color: #635f69;
+    font-size: 18px;
+    font-weight: 500;
+}
+.blg-i{
+    position: relative;
+    /* width: 100%; */
+}
+.blg-i img{
+    max-width: 100%;
+
+    
+}
+.author img {
+    width: 40px;
+}
+.author h4 {
+    font-size: 15px;
+    padding: 0 10px 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.author {
+    background-color: #3960ef;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+   
+}
+.blg-item h3 {
+    font-size: 23px;
+    font-weight: 600;
+    padding: 30px 0 0;
+}
+.blg-item p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #635f69;
+}
+.footer{
+    background: #081828;
+    color: rgb(255, 255, 255);
+}
+.footer-widged h2 {
+    font-size: 22px;
+    border-left: 3px solid #3763eb;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.footer-widged img {
+    max-width: 60%;
+    margin-bottom: 28px;
+}
+.footer-widged p {
+    font-size: 18px;
+    font-weight: 600;
+    width: 75%;
+}
+.widged-icon ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+.widged-icon ul li {
+    padding: 20px;
+}
+.footer-widged ul {
+    list-style: none;
+    padding-left: 0;
+    
+}
+.footer-widged ul li {
+    display: block;
+    font-size: 18px;
+    padding-bottom: 23px;
+}
+.fo-content{
+    border-top: 1px solid #636c75;
+}
+.fo-content p {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 30px;
 }
